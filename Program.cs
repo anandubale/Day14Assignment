@@ -6,6 +6,7 @@ namespace LinkedListProblems
     {
         static void Main(string[] args)
         {
+            /*
             LinkedListStack linkedListStack = new LinkedListStack();
             linkedListStack.push(70);
             linkedListStack.push(30);
@@ -15,7 +16,14 @@ namespace LinkedListProblems
             linkedListStack.isEmpty();
             linkedListStack.isFull();
             linkedListStack.Display();
-
+            */
+            LinkedListQueue linkedListQueues = new LinkedListQueue();
+            linkedListQueues.Enqueue(56);
+            linkedListQueues.Enqueue(30);
+            linkedListQueues.Enqueue(70);
+            linkedListQueues.Display();
+            linkedListQueues.Dequeue();
+            linkedListQueues.Display();
         }
     }
 }

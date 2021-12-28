@@ -10,8 +10,11 @@ namespace LinkedListProblems
             linkedListStack.push(70);
             linkedListStack.push(30);
             linkedListStack.push(56);
+            linkedListStack.pop();
+            linkedListStack.peek();
+            linkedListStack.isEmpty();
+            linkedListStack.isFull();
             linkedListStack.Display();
-
 
         }
     }
